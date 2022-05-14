@@ -1,0 +1,30 @@
+{
+  "name": "block-cat/routes",
+  "description": "Customize Flarum routes.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\Routes\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Routes",
+      "icon": {
+        "name": "fas fa-map-marker-alt",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}
